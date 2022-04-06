@@ -3,7 +3,7 @@ import "@nomiclabs/hardhat-etherscan";
 import "@nomiclabs/hardhat-waffle";
 import {DEPLOYED_CONTRACT} from "./helpers"
 
-task("buy", "buy token with ether from contract")
+task("buy", "Buy token with ether from contract")
 .addParam("amount", "Amount of ether you send to buy tokens")
 .setAction(async (taskArgs, hre) => 
 {

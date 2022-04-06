@@ -13,8 +13,7 @@
 
 | Task | Description |
 | --- | --- |
-| `npx hardhat deposit --user some_address --amount some_amount --id some_value --network kovan` | makes deposit for voting to dao |
-| `npx hardhat add-proposal --description some_text --network kovan` | adds new proposal |
-| `npx hardhat add-proposal --description some_text --network kovan` | adds new proposal |
-| `npx hardhat finish-proposal --id some_id --network kovan` | finish current proposal |
-| `npx hardhat finish-proposal --id some_id supports-against true/false --network kovan` | add vote |
+| `npx hardhat remove-order --network kovan` | Removes order of user who called it |
+| `npx hardhat redeem --from some_address --amount --network kovan` | Make deposit for voting to dao |
+| `npx hardhat add-order --amount some_amount --price some_price --network kovan` | Makes order with tokens setting price in ether |
+| `npx hardhat buy --amount some_amount --network kovan` | Buy token with ether from contract |
